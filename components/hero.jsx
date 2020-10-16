@@ -6,17 +6,23 @@ const Hero = () => {
         <div className="container">
           <div className="row content">
             <div className="col-6 d-flex flex-column">
-              <img src="img/logo.png" alt="" />
-              <div className="d-flex flex-row justify-content-center">
+              <img src="img/logo.png" alt="" className="logo" />
+              <div className="d-flex flex-row justify-content-center my-3">
                 <a href="#" className="btn btn-primary">
                   Agenda
                 </a>
                 <a href="#" className="btn btn-primary">
-                  Agenda
+                  Ouça no Spotify
                 </a>
               </div>
             </div>
-            <div className="col-6"></div>
+            <div className="col-6">
+              <img
+                src="img/marilia-mendonca-crop.png"
+                alt=""
+                className="hero-img"
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -24,8 +30,8 @@ const Hero = () => {
       <style jsx>{`
         .overlay {
           position: absolute;
-          background-color: #333;
-          opacity: 0.25;
+          background-color: #000;
+          opacity: 0.5;
           height: 100vh;
           width: 100vw;
           z-index: 1;
@@ -36,19 +42,21 @@ const Hero = () => {
         }
         .jumbotron {
           padding: 0;
-          background-image: url("img/hero.jpg");
+          background-image: url("img/hero-bg-crop.jpg");
           background-repeat: no-repeat;
           background-size: cover;
           background-position: center;
           overflow: hidden;
-          clip-path: polygon(0 0, 100% 0, 100% 80%, 18% 100%, 0 80%);
-          height: 80vh;
+          clip-path: polygon(0 0, 100% 0, 100% 80%, 20% 100%, 0 80%);
+          height: 38rem;
         }
-        img {
+        .logo {
           width: 80%;
           height: auto;
           margin: 10rem auto 0;
           z-index: 9999;
+        }
+        .hero-img {
         }
         .btn {
           width: 50%;

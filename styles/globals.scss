@@ -17,5 +17,8 @@ body {
   &-primary {
     background-color: $primary;
     color: $black;
+    &:hover {
+      background-color: darken($primary, 15%);
+    }
   }
 }
