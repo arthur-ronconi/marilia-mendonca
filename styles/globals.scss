@@ -6,3 +6,16 @@
 body {
   font-family: $font-family;
 }
+.btn {
+  border-radius: 0;
+  border: none;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: $font-weight-bold;
+  &-primary {
+    background-color: $primary;
+    color: $black;
+  }
+}
