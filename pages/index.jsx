@@ -2,6 +2,7 @@ import Head from "next/head";
 import Hero from "../sections/hero";
 import News from "../sections/news";
 import Cta from "../sections/cta";
+import Gallery from "../sections/gallery";
 
 export default function Home() {
   return (
@@ -15,8 +16,14 @@ export default function Home() {
       <section className="section">
         <News />
       </section>
-      <section className="section">
+      <section className="section pb-0">
         <Cta />
+      </section>
+      <section className="section py-0">
+        <Gallery title="Fotos" />
+      </section>
+      <section className="section py-0">
+        <Gallery title="Vídeos" />
       </section>
     </div>
   );

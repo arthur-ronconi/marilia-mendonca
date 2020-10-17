@@ -5,7 +5,7 @@ const Cta = () => {
         <div className="container">
           <div className="cta-box">
             <h2>Ao vivo, perto de você</h2>
-            <a href="#" className="btn btn-black my-3">
+            <a href="#" className="btn btn-lg btn-black mt-4">
               Agenda
             </a>
           </div>
@@ -34,6 +34,9 @@ const Cta = () => {
             align-content: center;
             align-items: center;
             justify-content: center;
+          }
+          .btn {
+            padding: 0 4rem;
           }
         `}
       </style>

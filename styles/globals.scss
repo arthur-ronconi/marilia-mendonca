@@ -27,9 +27,40 @@ body {
     color: $primary;
     &:hover {
       background-color: darken($black, 15%);
+      color: darken($primary, 15%);
     }
   }
 }
 .section {
   padding: $section-padding;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-weight: $font-weight-bold;
+}
+h2 {
+  font-size: 3rem;
+  &::after {
+    content: "";
+    display: block;
+    position: relative;
+    height: 0.5rem;
+    width: 6.375rem;
+    background-color: $primary;
+  }
+}
+
+h3 {
+  font-size: 2rem;
 }

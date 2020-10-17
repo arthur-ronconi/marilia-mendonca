@@ -44,22 +44,6 @@ const News = () => {
         </div>
       </div>
       <style jsx>{`
-        h2 {
-          font-size: 3rem;
-          font-weight: 700;
-        }
-        h2::after {
-          content: "";
-          display: block;
-          position: relative;
-          height: 0.5rem;
-          width: 6.375rem;
-          background-color: #c69b2e;
-        }
-        h3 {
-          font-size: 2rem;
-          font-weight: 700;
-        }
         .row {
           margin: 3rem 0;
         }
