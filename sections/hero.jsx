@@ -56,8 +56,6 @@ const Hero = () => {
           margin: 10rem auto 0;
           z-index: 9999;
         }
-        .hero-img {
-        }
         .btn {
           width: 50%;
           margin: 0.5rem;
