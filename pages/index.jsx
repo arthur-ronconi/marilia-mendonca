@@ -3,6 +3,8 @@ import Hero from "../sections/hero";
 import News from "../sections/news";
 import Cta from "../sections/cta";
 import Gallery from "../sections/gallery";
+import Contact from "../sections/contact";
+import Footer from "../sections/footer";
 
 export default function Home() {
   return (
@@ -25,6 +27,8 @@ export default function Home() {
       <section className="section py-0">
         <Gallery title="Vídeos" />
       </section>
+      <Contact />
+      <Footer />
     </div>
   );
 }
