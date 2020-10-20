@@ -5,7 +5,10 @@ const Cta = () => {
         <div className="container">
           <div className="cta-box">
             <h2>Ao vivo, perto de você</h2>
-            <a href="#" className="btn btn-lg btn-black mt-4">
+            <a
+              href="http://www.mariliamendoncaoficial.com.br/agenda"
+              className="btn btn-lg btn-black mt-4"
+            >
               Agenda
             </a>
           </div>

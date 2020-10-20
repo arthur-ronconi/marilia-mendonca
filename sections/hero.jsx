@@ -8,10 +8,18 @@ const Hero = () => {
             <div className="col-6 d-flex flex-column">
               <img src="img/logo.png" alt="" className="logo" />
               <div className="d-flex flex-row justify-content-center my-3">
-                <a href="#" className="btn btn-primary">
+                <a
+                  href="http://www.mariliamendoncaoficial.com.br/agenda"
+                  target="blank"
+                  className="btn btn-primary"
+                >
                   Agenda
                 </a>
-                <a href="#" className="btn btn-primary">
+                <a
+                  href="https://open.spotify.com/playlist/37i9dQZF1DXc5EXfkDXlmk?si=EvPqX2_eRAywSTyqjKgbXA"
+                  target="blank"
+                  className="btn btn-primary"
+                >
                   Ouça no Spotify
                 </a>
               </div>

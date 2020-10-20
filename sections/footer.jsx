@@ -18,9 +18,13 @@ export default function Footer() {
                 CEP: 74810-030
               </p>
               <p>
-                <a href="#">comercial@workshow.com.br</a>
+                <a href="mailto:comercial@workshow.com.br">
+                  comercial@workshow.com.br
+                </a>
                 <br />
-                <a href="#">comercial@mariliamendoncaoficial.com.br</a>
+                <a href="mailto:comercial@mariliamendoncaoficial.com.br">
+                  comercial@mariliamendoncaoficial.com.br
+                </a>
               </p>
             </div>
             <div className="col-4">
@@ -29,7 +33,9 @@ export default function Footer() {
                 <p>
                   (62) 3241-7163
                   <br />
-                  <a href="#">comercial@workshow.com.br</a>
+                  <a href="mailto:comercial@workshow.com.br">
+                    comercial@workshow.com.br
+                  </a>
                 </p>
               </div>
               <div className="footer-group">
@@ -37,7 +43,9 @@ export default function Footer() {
                 <p>
                   Textos + ideias - Silvia Colmenero
                   <br />
-                  <a href="#">imprensa@textosmaisideias.com.br</a>
+                  <a href="mailto:imprensa@textosmaisideias.com.br">
+                    imprensa@textosmaisideias.com.br
+                  </a>
                   <br />
                   (11)2283-6681/ (11)98900-0124
                 </p>
@@ -45,7 +53,9 @@ export default function Footer() {
               <div className="footer-group">
                 <h5>Equipe web e redes sociais</h5>
                 <p>
-                  <a href="#">mariliamendoncaoficial@gmail.com</a>
+                  <a href="mailto:mariliamendoncaoficial@gmail.com">
+                    mariliamendoncaoficial@gmail.com
+                  </a>
                 </p>
               </div>
             </div>
@@ -53,25 +63,32 @@ export default function Footer() {
               <div className="footer-group">
                 <h5>Informática</h5>
                 <p>
-                  <a href="#">ti@workshow.com.br</a>
+                  <a href="mailto:ti@workshow.com.br">ti@workshow.com.br</a>
                 </p>
               </div>
               <div className="footer-group">
                 <h5>Material Promocional</h5>
                 <p>
                   Contratantes e rádios <br />
-                  E-mail: <a href="#">edivilson@workshowproducoes.com.br</a>
+                  E-mail:{" "}
+                  <a href="mailto:edivilson@workshowproducoes.com.br">
+                    edivilson@workshowproducoes.com.br
+                  </a>
                   <br />
                   (11)2283-6681/ (11)98900-0124
                 </p>
                 <p>
-                  <a href="#">divulgacao@workshow.com.br</a>
+                  <a href="mailto:divulgacao@workshow.com.br">
+                    divulgacao@workshow.com.br
+                  </a>
                 </p>
               </div>
               <div className="footer-group">
                 <h5>Campanhas Publicitárias / Patrocínios / Merchandising</h5>
                 <p>
-                  <a href="#">marketing@workshow.com.br</a>
+                  <a href="mailto:marketing@workshow.com.br">
+                    marketing@workshow.com.br
+                  </a>
                   <br />
                   +55 62 3241-7163
                 </p>
@@ -81,7 +98,9 @@ export default function Footer() {
           <div className="row border-top border-dark py-5 d-flex justify-content-center">
             <p className="text-center">
               Site <strong>não oficial</strong> feito por{" "}
-              <a href="#">Arthur Ronconi</a>
+              <a href="https://github.com/arthur-ronconi" target="blank">
+                Arthur Ronconi
+              </a>
             </p>
           </div>
         </div>
@@ -93,7 +112,7 @@ export default function Footer() {
           }
           a {
             font-weight: 700;
-            color: #333;
+            color: inherit;
           }
           .footer {
             background-color: #c69b2e;

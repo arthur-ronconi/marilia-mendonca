@@ -2,16 +2,18 @@ import Head from "next/head";
 import Hero from "../sections/hero";
 import News from "../sections/news";
 import Cta from "../sections/cta";
-import Gallery from "../sections/gallery";
+import PhotoGallery from "../sections/photogallery";
+import VideoGallery from "../sections/videogallery";
 import Contact from "../sections/contact";
 import Footer from "../sections/footer";
+import Seo from "../sections/seo";
+import Disclaimer from "../sections/disclaimer";
 
 export default function Home() {
   return (
     <div>
-      <Head>
-        <title>Marília Mendonça - Site Não-Oficial</title>
-      </Head>
+      <Seo />
+      <Disclaimer />
       <section>
         <Hero />
       </section>
@@ -22,11 +24,11 @@ export default function Home() {
         <Cta />
       </section>
       <section className="section py-0">
-        <Gallery title="Fotos" />
+        <PhotoGallery />
       </section>
-      <section className="section py-0">
-        <Gallery title="Vídeos" />
-      </section>
+      {/* <section className="section py-0">
+        <VideoGallery />
+      </section> */}
       <Contact />
       <Footer />
     </div>

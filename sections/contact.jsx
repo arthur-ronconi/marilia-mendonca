@@ -25,14 +25,16 @@ export default function Contact() {
             </div>
             <div className="col-6">
               <p>
-                <a href="#">comercial@workshow.com.br</a>
+                <a href="mailto:comercial@workshow.com.br">
+                  comercial@workshow.com.br
+                </a>
                 <br />
-                <a href="#">comercial@mariliamendoncaoficial.com.br</a>
+                <a href="mailto:comercial@mariliamendoncaoficial.com.br">
+                  comercial@mariliamendoncaoficial.com.br
+                </a>
               </p>
-
-              <a href="#"></a>
             </div>
-            <div className="col-12">
+            {/* <div className="col-12">
               <form className="pt-5">
                 <div className="row pb-3">
                   <div className="col">
@@ -79,7 +81,7 @@ export default function Contact() {
                   placeholder="Mensagem"
                 ></textarea>
               </form>
-            </div>
+            </div> */}
           </div>
         </div>
         <style jsx>{`
