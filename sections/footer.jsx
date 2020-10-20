@@ -1,10 +1,10 @@
 export default function Footer() {
   return (
-    <section className="footer">
+    <section className="footer text-center text-md-left">
       <div className="section">
         <div className="container">
           <div className="row">
-            <div className="col-4">
+            <div className="col-lg-4">
               <h5>Para Shows</h5>
               <p>
                 (62) 3241-7163
@@ -23,11 +23,11 @@ export default function Footer() {
                 </a>
                 <br />
                 <a href="mailto:comercial@mariliamendoncaoficial.com.br">
-                  comercial@mariliamendoncaoficial.com.br
+                  comercial@marilia&shy;mendoncaoficial.com.br
                 </a>
               </p>
             </div>
-            <div className="col-4">
+            <div className="col-lg-4">
               <div className="footer-group">
                 <h5>Geral</h5>
                 <p>
@@ -44,7 +44,7 @@ export default function Footer() {
                   Textos + ideias - Silvia Colmenero
                   <br />
                   <a href="mailto:imprensa@textosmaisideias.com.br">
-                    imprensa@textosmaisideias.com.br
+                    imprensa@textos&shy;maisideias.com.br
                   </a>
                   <br />
                   (11)2283-6681/ (11)98900-0124
@@ -54,12 +54,12 @@ export default function Footer() {
                 <h5>Equipe web e redes sociais</h5>
                 <p>
                   <a href="mailto:mariliamendoncaoficial@gmail.com">
-                    mariliamendoncaoficial@gmail.com
+                    mariliamendonca&shy;oficial@gmail.com
                   </a>
                 </p>
               </div>
             </div>
-            <div className="col-4">
+            <div className="col-lg-4">
               <div className="footer-group">
                 <h5>Informática</h5>
                 <p>
@@ -72,7 +72,7 @@ export default function Footer() {
                   Contratantes e rádios <br />
                   E-mail:{" "}
                   <a href="mailto:edivilson@workshowproducoes.com.br">
-                    edivilson@workshowproducoes.com.br
+                    edivilson@work&shy;showproducoes.com.br
                   </a>
                   <br />
                   (11)2283-6681/ (11)98900-0124
@@ -98,6 +98,7 @@ export default function Footer() {
           <div className="row border-top border-dark py-5 d-flex justify-content-center">
             <p className="text-center">
               Site <strong>não oficial</strong> feito por{" "}
+              <br className="d-md-none" />
               <a href="https://github.com/arthur-ronconi" target="blank">
                 Arthur Ronconi
               </a>

@@ -9,7 +9,7 @@ export default function Contact() {
             </div>
           </div>
           <div className="row">
-            <div className="col-6">
+            <div className="col-lg-6">
               <p>
                 Marília Mendonça faz parte do casting de artistas da{" "}
                 <span className="strong">Workshow.</span>
@@ -23,14 +23,14 @@ export default function Contact() {
                 74810-030
               </p>
             </div>
-            <div className="col-6">
+            <div className="col-lg-6">
               <p>
                 <a href="mailto:comercial@workshow.com.br">
                   comercial@workshow.com.br
                 </a>
                 <br />
                 <a href="mailto:comercial@mariliamendoncaoficial.com.br">
-                  comercial@mariliamendoncaoficial.com.br
+                  comercial@marilia&shy;mendoncaoficial.com.br
                 </a>
               </p>
             </div>

@@ -8,13 +8,13 @@ const News = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-6 d-flex flex-column justify-content-center">
+          <div className="col-md-6 d-flex flex-column justify-content-center">
             <div className="news-img align-items-center">
               <img src="img/noticia1.jpg" alt="" className="img-fluid w-100" />
             </div>
           </div>
-          <div className="col-6 d-flex flex-column justify-content-center">
-            <div className="news-text">
+          <div className="col-md-6 d-flex flex-column justify-content-center">
+            <div className="news-text p-3">
               <h3>Festa a fantasia</h3>
               <p>
                 Marilia Mendonça comemorou seu aniversário de 22 anos coum uma
@@ -25,9 +25,9 @@ const News = () => {
             </div>
           </div>
         </div>
-        <div className="row">
-          <div className="col-6 d-flex flex-column justify-content-center">
-            <div className="news-text">
+        <div className="row flex-column-reverse flex-md-row">
+          <div className="col-md-6 d-flex flex-column justify-content-center">
+            <div className="news-text p-3">
               <h3>Aniversário de 22 anos</h3>
               <p>
                 Principal nome do cenário sertanejo do país, a cantora Marília
@@ -36,7 +36,7 @@ const News = () => {
               </p>
             </div>
           </div>
-          <div className="col-6 d-flex flex-column justify-content-center">
+          <div className="col-md-6 d-flex flex-column justify-content-center">
             <div className="news-img align-items-center">
               <img src="img/noticia2.jpg" alt="" className="img-fluid w-100" />
             </div>

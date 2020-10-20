@@ -4,18 +4,20 @@ const PhotoGallery = () => {
       <div className="bg">
         <div className="container py-5">
           <div className="row">
-            <h2>Fotos</h2>
+            <div className="col">
+              <h2>Fotos</h2>
+            </div>
           </div>
           <div className="row py-5">
-            <div className="col-6 pl-0 img-large">
+            <div className="col-lg-6">
               <a
                 href="http://www.mariliamendoncaoficial.com.br/uploads/galerias/350/15cc566ad10f606d9709c27a2ac475b6.jpg"
                 target="blank"
               >
-                <img src="img/foto1.jpg" alt="" className="item" />
+                <img src="img/foto1.jpg" alt="" className="item img-fluid" />
               </a>
             </div>
-            <div className="col-6">
+            <div className="col-lg-6">
               <div className="row imgs-small">
                 <div className="col-6">
                   <a
@@ -58,7 +60,7 @@ const PhotoGallery = () => {
                     href="http://www.mariliamendoncaoficial.com.br/fotos/guaxupe-mg/08-07-2017"
                     target="blank"
                   >
-                    <div className="more item">Ver mais</div>
+                    <div className="more item">Ver mais...</div>
                   </a>
                 </div>
               </div>
@@ -70,23 +72,16 @@ const PhotoGallery = () => {
         .bg {
           background-color: #0000000d;
         }
-        .img-large img {
-          height: 34rem;
-          width: 34rem;
-        }
-        .imgs-small img {
-          margin-bottom: 2rem;
-        }
         .more {
           font-size: 2rem;
           font-weight: 700;
-          background: rgba(0, 0, 0, 0.15);
-          height: 255px;
           display: flex;
+          justify-content: center;
           align-content: center;
           align-items: center;
-          justify-content: center;
-          justify-items: center;
+          width: 100%;
+          height: 100%;
+          margin-bottom: 2rem;
         }
         .item {
           transition: all 0.1s ease-in-out;

@@ -1,7 +1,7 @@
 const Cta = () => {
   return (
     <div>
-      <div className="cta-bg">
+      <div className="cta-bg text-center text-md-left">
         <div className="container">
           <div className="cta-box">
             <h2>Ao vivo, perto de você</h2>
@@ -17,7 +17,7 @@ const Cta = () => {
       <style jsx>
         {`
           h2 {
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-weight: 700;
           }
           .cta-bg {

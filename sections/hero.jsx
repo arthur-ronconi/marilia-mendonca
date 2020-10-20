@@ -5,9 +5,9 @@ const Hero = () => {
         <div className="overlay"></div>
         <div className="container">
           <div className="row content">
-            <div className="col-6 d-flex flex-column">
+            <div className="col-md-6 d-flex flex-column">
               <img src="img/logo.png" alt="" className="logo" />
-              <div className="d-flex flex-row justify-content-center my-3">
+              <div className="d-flex flex-column flex-md-row justify-content-center my-3">
                 <a
                   href="http://www.mariliamendoncaoficial.com.br/agenda"
                   target="blank"
@@ -15,6 +15,7 @@ const Hero = () => {
                 >
                   Agenda
                 </a>
+
                 <a
                   href="https://open.spotify.com/playlist/37i9dQZF1DXc5EXfkDXlmk?si=EvPqX2_eRAywSTyqjKgbXA"
                   target="blank"
@@ -24,7 +25,7 @@ const Hero = () => {
                 </a>
               </div>
             </div>
-            <div className="col-6">
+            <div className="d-none d-md-block col-6">
               <img
                 src="img/marilia-mendonca-crop.png"
                 alt=""
@@ -55,7 +56,6 @@ const Hero = () => {
           background-size: cover;
           background-position: center;
           overflow: hidden;
-          clip-path: polygon(0 0, 100% 0, 100% 80%, 20% 100%, 0 80%);
           height: 38rem;
         }
         .logo {
@@ -65,7 +65,7 @@ const Hero = () => {
           z-index: 9999;
         }
         .btn {
-          width: 50%;
+          min-width: 50%;
           margin: 0.5rem;
         }
       `}</style>

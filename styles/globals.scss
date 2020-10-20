@@ -1,5 +1,6 @@
 @import "./fonts.scss";
 @import "./variables.scss";
+@import "./breakpoints.scss";
 :root {
   font-size: 16px;
   color: #212529;
@@ -52,7 +53,6 @@ h6,
   font-weight: $font-weight-bold;
 }
 h2 {
-  font-size: 3rem;
   &::after {
     content: "";
     display: block;
@@ -65,4 +65,21 @@ h2 {
 
 h3 {
   font-size: 2rem;
+}
+.jumbotron {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  @include md {
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 20% 100%, 0 80%);
+  }
+}
+.cta-box {
+  h2 {
+    font-size: 1.5rem !important;
+    @include md {
+      font-size: 2rem !important;
+    }
+  }
+}
+.item {
+  margin: 1rem auto;
 }
