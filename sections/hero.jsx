@@ -5,8 +5,12 @@ const Hero = () => {
         <div className="overlay"></div>
         <div className="container">
           <div className="row content">
-            <div className="col-md-6 d-flex flex-column">
-              <img src="img/logo.png" alt="" className="logo" />
+            <div className="col-lg-6 d-flex flex-column">
+              <h1 className="text-center text-lg-left">
+                Marília <br />
+                Mendonça
+              </h1>
+              {/* <img src="img/logo.png" alt="" className="logo" /> */}
               <div className="d-flex flex-column flex-md-row justify-content-center my-3">
                 <a
                   href="http://www.mariliamendoncaoficial.com.br/agenda"
@@ -25,7 +29,7 @@ const Hero = () => {
                 </a>
               </div>
             </div>
-            <div className="d-none d-md-block col-6">
+            <div className="d-none d-lg-block col-6">
               <img
                 src="img/marilia-mendonca-crop.png"
                 alt=""

@@ -53,6 +53,16 @@ h6,
 .h6 {
   font-weight: $font-weight-bold;
 }
+h1 {
+  color: $white;
+  font-weight: 700 !important;
+  padding-top: 10rem;
+  font-size: 3rem;
+  @include lg {
+    padding-top: 8rem;
+    font-size: 5rem;
+  }
+}
 h2 {
   &::after {
     content: "";
