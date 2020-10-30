@@ -90,19 +90,19 @@ export default function Contact() {
             padding: 6rem 0;
           }
           h2 {
-            color: #c69b2e;
+            color: #f0bd15;
             padding-bottom: 2rem;
           }
           p {
             color: #fff;
           }
           a {
-            color: #c69b2e;
+            color: #f0bd15;
             font-weight: 700;
           }
           .strong {
             font-weight: 700;
-            color: #c69b2e;
+            color: #f0bd15;
           }
         `}</style>
       </section>

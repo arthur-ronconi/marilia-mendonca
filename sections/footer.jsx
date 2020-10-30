@@ -116,7 +116,7 @@ export default function Footer() {
             color: inherit;
           }
           .footer {
-            background-color: #c69b2e;
+            background-color: #f0bd15;
           }
           .footer-group {
             margin-bottom: 3rem;

@@ -30,7 +30,7 @@ const Cta = () => {
             );
           }
           .cta-box {
-            background-color: #c69b2e;
+            background-color: #f0bd15;
             height: 20rem;
             display: flex;
             flex-direction: column;

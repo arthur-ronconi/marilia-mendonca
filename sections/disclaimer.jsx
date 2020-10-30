@@ -16,7 +16,7 @@ export default function Disclaimer() {
 
       <style jsx>{`
         .bg {
-          background-color: #c69b2e;
+          background-color: #f0bd15;
           padding: 1rem 0;
         }
         a {
