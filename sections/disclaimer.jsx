@@ -6,7 +6,13 @@ export default function Disclaimer() {
           <div className="row d-flex justify-content-center">
             <div className="text-center">
               Esse site <strong>não é oficial</strong>.
-              <br className="d-md-none" /> Clique <a href="#">AQUI</a>{" "}
+              <br className="d-md-none" /> Clique{" "}
+              <a
+                href="http://www.mariliamendoncaoficial.com.br/"
+                rel="noopener noreferrer"
+              >
+                AQUI
+              </a>{" "}
               <br className="d-md-none" />
               para acessar o site oficial
             </div>
