@@ -1,3 +1,4 @@
+import Image from "next/image";
 const Hero = () => {
   return (
     <div>
@@ -30,10 +31,11 @@ const Hero = () => {
               </div>
             </div>
             <div className="d-none d-lg-block col-6">
-              <img
-                src="img/marilia-mendonca-crop.png"
-                alt=""
-                className="hero-img"
+              <Image
+                src="/img/marilia-mendonca-crop.png"
+                alt="Marília Mendonça"
+                width={561}
+                height={831}
               />
             </div>
           </div>

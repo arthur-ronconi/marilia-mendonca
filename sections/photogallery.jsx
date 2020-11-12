@@ -1,3 +1,4 @@
+import Image from "next/image";
 const PhotoGallery = () => {
   return (
     <div>
@@ -14,7 +15,13 @@ const PhotoGallery = () => {
                 href="http://www.mariliamendoncaoficial.com.br/uploads/galerias/350/15cc566ad10f606d9709c27a2ac475b6.jpg"
                 target="blank"
               >
-                <img src="img/foto1.jpg" alt="" className="item img-fluid" />
+                <Image
+                  src="/img/foto1.jpg"
+                  alt="Marília Mendonça cantando."
+                  layout="responsive"
+                  unsized
+                  className="item img-fluid"
+                />
               </a>
             </div>
             <div className="col-lg-6">
@@ -24,10 +31,12 @@ const PhotoGallery = () => {
                     href="http://www.mariliamendoncaoficial.com.br/uploads/galerias/350/e22340cb052d8816dcab83e7d9387c95.jpg"
                     target="blank"
                   >
-                    <img
-                      src="img/foto2.jpg"
-                      alt=""
-                      className="img-fluid item"
+                    <Image
+                      src="/img/foto2.jpg"
+                      alt="Marília Mendonça cantando."
+                      layout="responsive"
+                      unsized
+                      className="item img-fluid"
                     />
                   </a>
                 </div>
@@ -36,10 +45,12 @@ const PhotoGallery = () => {
                     href="http://www.mariliamendoncaoficial.com.br/uploads/galerias/350/85942734c650130737852eb5fb9944c4.jpg"
                     target="blank"
                   >
-                    <img
-                      src="img/foto3.jpg"
-                      alt=""
-                      className="img-fluid item"
+                    <Image
+                      src="/img/foto3.jpg"
+                      alt="Marília Mendonça cantando."
+                      layout="responsive"
+                      unsized
+                      className="item img-fluid"
                     />
                   </a>
                 </div>
@@ -48,10 +59,12 @@ const PhotoGallery = () => {
                     href="http://www.mariliamendoncaoficial.com.br/uploads/galerias/350/526d7909b7556cff2c2b774b5bea66f9.jpg"
                     target="blank"
                   >
-                    <img
-                      src="img/foto4.jpg"
-                      alt=""
-                      className="img-fluid item"
+                    <Image
+                      src="/img/foto4.jpg"
+                      alt="Marília Mendonça cantando."
+                      layout="responsive"
+                      unsized
+                      className="item img-fluid"
                     />
                   </a>
                 </div>

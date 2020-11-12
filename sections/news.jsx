@@ -1,3 +1,4 @@
+import Image from "next/image";
 const News = () => {
   return (
     <div>
@@ -10,7 +11,14 @@ const News = () => {
         <div className="row">
           <div className="col-md-6 d-flex flex-column justify-content-center">
             <div className="news-img align-items-center">
-              <img src="img/noticia1.jpg" alt="" className="img-fluid w-100" />
+              {/* <img src="img/noticia1.jpg" alt="" className="img-fluid w-100" /> */}
+              <Image
+                src="/img/noticia1.jpg"
+                alt="Marília Mendonça ao lado do noivo."
+                layout="responsive"
+                unsized
+                className="img-fluid w-100"
+              />
             </div>
           </div>
           <div className="col-md-6 d-flex flex-column justify-content-center">
@@ -38,7 +46,13 @@ const News = () => {
           </div>
           <div className="col-md-6 d-flex flex-column justify-content-center">
             <div className="news-img align-items-center">
-              <img src="img/noticia2.jpg" alt="" className="img-fluid w-100" />
+              <Image
+                src="/img/noticia2.jpg"
+                alt="Marília Mendonça cantando num show."
+                layout="responsive"
+                unsized
+                className="img-fluid w-100"
+              />
             </div>
           </div>
         </div>
