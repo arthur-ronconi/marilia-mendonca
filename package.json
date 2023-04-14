@@ -9,6 +9,7 @@
     "push": "git push && git checkout main && git merge develop && git push && git checkout develop"
   },
   "dependencies": {
+    "@vercel/analytics": "^0.1.11",
     "bootstrap": "^4.5.3",
     "next": "^13.3.0",
     "react": "^18.2.0",
