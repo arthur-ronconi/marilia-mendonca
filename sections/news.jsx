@@ -16,7 +16,7 @@ const News = () => {
                 src="/img/noticia1.jpg"
                 alt="Marília Mendonça ao lado do noivo."
                 layout="responsive"
-                unsized
+                layout="fill"
                 className="img-fluid w-100"
               />
             </div>
@@ -50,7 +50,7 @@ const News = () => {
                 src="/img/noticia2.jpg"
                 alt="Marília Mendonça cantando num show."
                 layout="responsive"
-                unsized
+                layout="fill"
                 className="img-fluid w-100"
               />
             </div>

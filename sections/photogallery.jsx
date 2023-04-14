@@ -19,7 +19,7 @@ const PhotoGallery = () => {
                   src="/img/foto1.jpg"
                   alt="Marília Mendonça cantando."
                   layout="responsive"
-                  unsized
+                  layout="fill"
                   className="item img-fluid"
                 />
               </a>
@@ -35,7 +35,7 @@ const PhotoGallery = () => {
                       src="/img/foto2.jpg"
                       alt="Marília Mendonça cantando."
                       layout="responsive"
-                      unsized
+                      layout="fill"
                       className="item img-fluid"
                     />
                   </a>
@@ -49,7 +49,7 @@ const PhotoGallery = () => {
                       src="/img/foto3.jpg"
                       alt="Marília Mendonça cantando."
                       layout="responsive"
-                      unsized
+                      layout="fill"
                       className="item img-fluid"
                     />
                   </a>
@@ -63,7 +63,7 @@ const PhotoGallery = () => {
                       src="/img/foto4.jpg"
                       alt="Marília Mendonça cantando."
                       layout="responsive"
-                      unsized
+                      layout="fill"
                       className="item img-fluid"
                     />
                   </a>
